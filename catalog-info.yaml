@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tlake-nodejs-service"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "tlake-nodejs-service"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
